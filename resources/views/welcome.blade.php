@@ -21,8 +21,16 @@
         </style>
     </head>
     <body class="antialiased">
- <h1>skjsj</h1>
+ 
+    <!DOCTYPE html>
+<html>
+<body>
 
- <h2>{{$name}}</h2>
+
+<x-header  data="welcome component header" />
+ <h2>hi welcome to the page</h2>
+ <a href="about">about</a>
+ <a href="home">Home</a>
+
     </body>
 </html>

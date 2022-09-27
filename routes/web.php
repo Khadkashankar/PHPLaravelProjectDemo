@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/h", function () {
-    return view("header");
+// Route::get("/{name}", function($name){
+//     return view("welcome", ["name"=>$name]);
+// });
+
+Route::get('/home', function () {
+    return view('home');
 });
-Route::get("/{name}", function($name){
-    return view("welcome", ["name"=>$name]);
+    
+Route::get('/about', function () {
+    return view('about');
 });
